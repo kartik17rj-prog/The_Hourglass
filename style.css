@@ -1,0 +1,247 @@
+/* /* #countlable{
+    display:block;
+    text-align: center;
+    font-size:10em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container{
+    text-align: center;
+}
+.buttons{
+    padding: .5em;
+    font-size: 1em;
+    background-color: rgb(135, 248, 220);
+    color: rgb(192, 0, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.25s;  
+}
+.buttons:hover{
+    background-color: rgb(40, 204, 185);
+} */
+/* button{
+    text-align:center;
+    font-family: Verdana;
+    background-color: rgb(207, 240, 175);
+}
+#mybutton{
+    padding:5px 25px;
+    font-size: 3em;
+    border-radius: 7px;
+}
+#mylabel{
+    font-size: 7em;
+    text-align:center;
+    text-decoration:dotted;
+} */
+/* body {
+    background: linear-gradient(135deg, #ff00c8, #4200ff, #00eaff);
+    background-size: 400% 400%;
+    animation: gradientShift 10s infinite alternate;
+    font-family: "Comic Sans MS", cursive;
+    color: #fff;
+    padding: 40px;
+    text-shadow: 0 0 8px #000;
+}
+/* 
+Wiggly labels
+label, lable {
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 8px 0;
+    animation: wiggle 1.5s infinite ease-in-out;
+    color: #ffea00;
+}
+
+Glowing inputs
+input[type=checkbox], input[type=radio] {
+    transform: scale(1.5);
+    margin-right: 10px;
+    accent-color: #00ffea;
+    filter: drop-shadow(0 0 5px #00ffee);
+}
+
+input:hover {
+    transform: scale(2) rotate(10deg);
+    transition: 0.2s;
+} */
+
+/* Insane button */
+/* #mybutton {
+    padding: 15px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #ff0073;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #ff00ff;
+    color: #fff;
+    transition: 0.3s;
+    animation: pulse 1.3s infinite alternate;
+} */
+/* 
+#mybutton:hover {
+    background: #00ff88;
+    box-shadow: 0 0 25px #00ffcc, 0 0 40px #00ffcc inset;
+    transform: scale(1.2) rotate(-5deg);
+} */
+
+/* Result paragraphs */
+/* #subResult, #PayResult {
+    font-size: 26px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    background: rgba(0,0,0,0.3);
+    animation: fadeIn 2s ease forwards;
+} */ 
+
+/* Animations */
+/* @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+} */
+
+/* @keyframes wiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(2deg); }
+    50% { transform: rotate(-2deg); }
+    75% { transform: rotate(2deg); }
+    100% { transform: rotate(0deg); }
+} */
+
+/* @keyframes pulse {
+    0% { transform: scale(1); box-shadow: 0 0 10px #ff0090; }
+    100% { transform: scale(1.1); box-shadow: 0 0 25px #ff65d6; }
+} */
+
+/* @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+} */ 
+/* Page background */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #84eb74, #e5b9ac);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+} */
+
+/* Form container */
+/* /* form {
+    background: white;
+    padding: 25px 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+} */
+
+/* Heading */
+/* h1 {
+    margin-bottom: 20px;
+    color: #333;
+} */ 
+
+/* Number input */
+/* input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 15px;
+    text-align: center;
+} */
+
+/* input[type="number"]:focus {
+    border-color: #6c63ff;
+} */
+
+/* Radio buttons */
+/* input[type="radio"] {
+    margin-right: 8px;
+    cursor: pointer;
+} */
+/* 
+label {
+    font-size: 15px;
+    color: #444;
+    cursor: pointer;
+    font-weight: 700;
+} */
+
+/* Button
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+} */
+/* 
+button:hover {
+    background: #574bdb;
+} */
+
+/* Result text */
+/* #result {
+
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+#myinsta{
+    text-align: end;
+    text-size-adjust: inherit;
+    size: small;
+    color: rgb(31, 85, 87);
+    text-shadow: #1f1d1d;
+    
+} */
+
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clockcontainer{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    font-weight: bold;
+    
+}
+#clock{
+    justify-content: center;
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 6.5em;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.097);
+    width:100%;
+}
+#foot{
+    color: aliceblue;
+    text-align: right;
+    padding: 2em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
